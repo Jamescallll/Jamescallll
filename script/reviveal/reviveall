@@ -1,4 +1,3 @@
---commande pour revive tout les joueur--
 
 TriggerEvent('es:addGroupCommand', 'reviveall', 'superadmin', function(source, args, user)
     TriggerClientEvent('esx_ambulancejob:revive', -1)
